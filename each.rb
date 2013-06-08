@@ -1,5 +1,6 @@
 def each(xs)
   i = 0
+
   while xs[i]
     # here you put whatever you want to do with each element i.e.:
     puts xs[i] * 1.21

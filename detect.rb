@@ -8,10 +8,11 @@ def detect(x, xs)
     end
     i = i + 1
   end
+
   return false
 end
 
-a= [5, 8, 3, 7]
+a = [5, 8, 3, 7]
 
 puts detect(3, a)
 

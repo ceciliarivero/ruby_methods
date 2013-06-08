@@ -11,7 +11,8 @@ def count_numbers(xs)
     end
     i = i + 1
   end
-    return count
+
+  return count
 end
 
 p count_numbers([23, 42, 3, 7, 42, 7])

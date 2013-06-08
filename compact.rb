@@ -9,6 +9,7 @@ def compact(xs)
     end
     i = i + 1
   end
+
   b
 end
 
