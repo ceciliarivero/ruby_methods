@@ -7,8 +7,8 @@ def insert(xs)
     hash[i] = xs[i]
     i = i + 1
   end
-  return hash
 
+  return hash
 end
 
 p insert([23, 42, 3])
