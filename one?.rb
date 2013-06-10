@@ -12,13 +12,14 @@ end
 
 def one?(xs)
   found = false
-  each(xs) do |x|
 
-  if yield(x)
-    if found
-      return false
-    end
-    found = true
+  each(xs) do |x|
+    if yield(x)
+      if found
+        return false
+      end
+
+      found = true
     end
   end
 
