@@ -13,8 +13,6 @@ def filter_to_prc(xs, &prc)
   p b
 end
 
-r = proc { |n| n.even? }
-
 filter_to_prc([1, 2, 3, 4]) do |n|
   n.even?
 end

@@ -1,9 +1,8 @@
 # Return true if f(x) is true for at least one of the elements.
 def any?(xs)
   i = 0
-  j = xs.size
 
-  while i < j
+  while i < xs.size
     if yield(xs[i])
       return true
     end
