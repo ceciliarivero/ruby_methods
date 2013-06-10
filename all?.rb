@@ -2,9 +2,8 @@
 # To do this, first, we need the 'each' method.
 def each(xs, &prc)
   i = 0
-  j = xs.size
 
-  while i < j
+  while i < xs.size
     prc.call(xs[i])
     i = i + 1
   end
